@@ -1,0 +1,31 @@
+[0.609s] Invoking command in '/workspace/succulence_ws/src/succulence_rover_ros': PYTHONPATH=/workspace/succulence_ws/build/succulence_rover_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/succulence_ws/install/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/succulence_rover_ros build --build-base /workspace/succulence_ws/build/succulence_rover_ros/build install --record /workspace/succulence_ws/build/succulence_rover_ros/install.log --single-version-externally-managed install_data
+[0.785s] running egg_info
+[0.795s] writing ../../build/succulence_rover_ros/succulence_rover_ros.egg-info/PKG-INFO
+[0.795s] writing dependency_links to ../../build/succulence_rover_ros/succulence_rover_ros.egg-info/dependency_links.txt
+[0.795s] writing entry points to ../../build/succulence_rover_ros/succulence_rover_ros.egg-info/entry_points.txt
+[0.795s] writing requirements to ../../build/succulence_rover_ros/succulence_rover_ros.egg-info/requires.txt
+[0.795s] writing top-level names to ../../build/succulence_rover_ros/succulence_rover_ros.egg-info/top_level.txt
+[0.816s] reading manifest file '../../build/succulence_rover_ros/succulence_rover_ros.egg-info/SOURCES.txt'
+[0.818s] writing manifest file '../../build/succulence_rover_ros/succulence_rover_ros.egg-info/SOURCES.txt'
+[0.818s] running build
+[0.818s] running build_py
+[0.819s] copying succulence_rover_ros/motion_model.py -> /workspace/succulence_ws/build/succulence_rover_ros/build/lib/succulence_rover_ros
+[0.819s] copying succulence_rover_ros/occupancy_grid_mapper.py -> /workspace/succulence_ws/build/succulence_rover_ros/build/lib/succulence_rover_ros
+[0.819s] copying succulence_rover_ros/scan_matcher.py -> /workspace/succulence_ws/build/succulence_rover_ros/build/lib/succulence_rover_ros
+[0.819s] running install
+[0.824s] running install_lib
+[0.836s] copying /workspace/succulence_ws/build/succulence_rover_ros/build/lib/succulence_rover_ros/motion_model.py -> /workspace/succulence_ws/install/lib/python3.12/site-packages/succulence_rover_ros
+[0.836s] copying /workspace/succulence_ws/build/succulence_rover_ros/build/lib/succulence_rover_ros/occupancy_grid_mapper.py -> /workspace/succulence_ws/install/lib/python3.12/site-packages/succulence_rover_ros
+[0.836s] copying /workspace/succulence_ws/build/succulence_rover_ros/build/lib/succulence_rover_ros/scan_matcher.py -> /workspace/succulence_ws/install/lib/python3.12/site-packages/succulence_rover_ros
+[0.837s] byte-compiling /workspace/succulence_ws/install/lib/python3.12/site-packages/succulence_rover_ros/motion_model.py to motion_model.cpython-312.pyc
+[0.838s] byte-compiling /workspace/succulence_ws/install/lib/python3.12/site-packages/succulence_rover_ros/occupancy_grid_mapper.py to occupancy_grid_mapper.cpython-312.pyc
+[0.840s] byte-compiling /workspace/succulence_ws/install/lib/python3.12/site-packages/succulence_rover_ros/scan_matcher.py to scan_matcher.cpython-312.pyc
+[0.842s] running install_data
+[0.842s] running install_egg_info
+[0.854s] removing '/workspace/succulence_ws/install/lib/python3.12/site-packages/succulence_rover_ros-0.1.0-py3.12.egg-info' (and everything under it)
+[0.854s] Copying ../../build/succulence_rover_ros/succulence_rover_ros.egg-info to /workspace/succulence_ws/install/lib/python3.12/site-packages/succulence_rover_ros-0.1.0-py3.12.egg-info
+[0.856s] running install_scripts
+[0.933s] Installing motion_model_node script to /workspace/succulence_ws/install/lib/succulence_rover_ros
+[0.933s] Installing occupancy_grid_mapper_node script to /workspace/succulence_ws/install/lib/succulence_rover_ros
+[0.933s] writing list of installed files to '/workspace/succulence_ws/build/succulence_rover_ros/install.log'
+[0.957s] Invoked command in '/workspace/succulence_ws/src/succulence_rover_ros' returned '0': PYTHONPATH=/workspace/succulence_ws/build/succulence_rover_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/succulence_ws/install/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/succulence_rover_ros build --build-base /workspace/succulence_ws/build/succulence_rover_ros/build install --record /workspace/succulence_ws/build/succulence_rover_ros/install.log --single-version-externally-managed install_data
