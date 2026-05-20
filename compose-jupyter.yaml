@@ -1,0 +1,8 @@
+services:
+  ar-jupyter:
+    image: ghcr.io/collaborativeroboticslab/algorithmic-robots-labs:latest
+    command: start-notebook.sh --NotebookApp.token=''
+    privileged: true
+    network_mode: host
+    ports:
+      - "8888:8888"

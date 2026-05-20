@@ -1,0 +1,397 @@
+[-1774503031879340800.000s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--merge-install']
+[-1774503031879340800.000s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=True, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7081890f4550>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7081892a5160>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7081892a5160>>, mixin_verb=('build',))
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[-1774503031879340800.000s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/media/systems/Data1/Uni/(AR) Algorithmic Robotics'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server) by extensions ['ignore', 'ignore_ament_install']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server) by extension 'ignore'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server) by extension 'ignore_ament_install'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server) by extensions ['colcon_pkg']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server) by extension 'colcon_pkg'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server) by extensions ['colcon_meta']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server) by extension 'colcon_meta'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server) by extensions ['ros']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server) by extension 'ros'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server) by extensions ['cmake', 'python']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server) by extension 'cmake'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server) by extension 'python'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server) by extensions ['python_setup_py']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server) by extension 'python_setup_py'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/config) by extensions ['ignore', 'ignore_ament_install']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/config) by extension 'ignore'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/config) by extension 'ignore_ament_install'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/config) by extensions ['colcon_pkg']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/config) by extension 'colcon_pkg'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/config) by extensions ['colcon_meta']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/config) by extension 'colcon_meta'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/config) by extensions ['ros']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/config) by extension 'ros'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/config) by extensions ['cmake', 'python']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/config) by extension 'cmake'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/config) by extension 'python'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/config) by extensions ['python_setup_py']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/config) by extension 'python_setup_py'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data) by extensions ['ignore', 'ignore_ament_install']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data) by extension 'ignore'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data) by extension 'ignore_ament_install'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data) by extensions ['colcon_pkg']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data) by extension 'colcon_pkg'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data) by extensions ['colcon_meta']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data) by extension 'colcon_meta'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data) by extensions ['ros']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data) by extension 'ros'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data) by extensions ['cmake', 'python']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data) by extension 'cmake'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data) by extension 'python'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data) by extensions ['python_setup_py']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data) by extension 'python_setup_py'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/CachedProfilesData) by extensions ['ignore', 'ignore_ament_install']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/CachedProfilesData) by extension 'ignore'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/CachedProfilesData) by extension 'ignore_ament_install'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/CachedProfilesData) by extensions ['colcon_pkg']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/CachedProfilesData) by extension 'colcon_pkg'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/CachedProfilesData) by extensions ['colcon_meta']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/CachedProfilesData) by extension 'colcon_meta'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/CachedProfilesData) by extensions ['ros']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/CachedProfilesData) by extension 'ros'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/CachedProfilesData) by extensions ['cmake', 'python']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/CachedProfilesData) by extension 'cmake'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/CachedProfilesData) by extension 'python'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/CachedProfilesData) by extensions ['python_setup_py']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/CachedProfilesData) by extension 'python_setup_py'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/CachedProfilesData/__default__profile__) by extensions ['ignore', 'ignore_ament_install']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/CachedProfilesData/__default__profile__) by extension 'ignore'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/CachedProfilesData/__default__profile__) by extension 'ignore_ament_install'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/CachedProfilesData/__default__profile__) by extensions ['colcon_pkg']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/CachedProfilesData/__default__profile__) by extension 'colcon_pkg'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/CachedProfilesData/__default__profile__) by extensions ['colcon_meta']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/CachedProfilesData/__default__profile__) by extension 'colcon_meta'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/CachedProfilesData/__default__profile__) by extensions ['ros']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/CachedProfilesData/__default__profile__) by extension 'ros'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/CachedProfilesData/__default__profile__) by extensions ['cmake', 'python']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/CachedProfilesData/__default__profile__) by extension 'cmake'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/CachedProfilesData/__default__profile__) by extension 'python'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/CachedProfilesData/__default__profile__) by extensions ['python_setup_py']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/CachedProfilesData/__default__profile__) by extension 'python_setup_py'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/coder-logs) by extensions ['ignore', 'ignore_ament_install']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/coder-logs) by extension 'ignore'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/coder-logs) by extension 'ignore_ament_install'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/coder-logs) by extensions ['colcon_pkg']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/coder-logs) by extension 'colcon_pkg'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/coder-logs) by extensions ['colcon_meta']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/coder-logs) by extension 'colcon_meta'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/coder-logs) by extensions ['ros']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/coder-logs) by extension 'ros'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/coder-logs) by extensions ['cmake', 'python']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/coder-logs) by extension 'cmake'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/coder-logs) by extension 'python'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/coder-logs) by extensions ['python_setup_py']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/coder-logs) by extension 'python_setup_py'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs) by extensions ['ignore', 'ignore_ament_install']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs) by extension 'ignore'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs) by extension 'ignore_ament_install'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs) by extensions ['colcon_pkg']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs) by extension 'colcon_pkg'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs) by extensions ['colcon_meta']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs) by extension 'colcon_meta'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs) by extensions ['ros']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs) by extension 'ros'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs) by extensions ['cmake', 'python']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs) by extension 'cmake'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs) by extension 'python'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs) by extensions ['python_setup_py']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs) by extension 'python_setup_py'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052701) by extensions ['ignore', 'ignore_ament_install']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052701) by extension 'ignore'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052701) by extension 'ignore_ament_install'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052701) by extensions ['colcon_pkg']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052701) by extension 'colcon_pkg'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052701) by extensions ['colcon_meta']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052701) by extension 'colcon_meta'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052701) by extensions ['ros']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052701) by extension 'ros'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052701) by extensions ['cmake', 'python']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052701) by extension 'cmake'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052701) by extension 'python'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052701) by extensions ['python_setup_py']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052701) by extension 'python_setup_py'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052701/exthost1) by extensions ['ignore', 'ignore_ament_install']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052701/exthost1) by extension 'ignore'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052701/exthost1) by extension 'ignore_ament_install'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052701/exthost1) by extensions ['colcon_pkg']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052701/exthost1) by extension 'colcon_pkg'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052701/exthost1) by extensions ['colcon_meta']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052701/exthost1) by extension 'colcon_meta'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052701/exthost1) by extensions ['ros']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052701/exthost1) by extension 'ros'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052701/exthost1) by extensions ['cmake', 'python']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052701/exthost1) by extension 'cmake'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052701/exthost1) by extension 'python'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052701/exthost1) by extensions ['python_setup_py']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052701/exthost1) by extension 'python_setup_py'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052701/exthost1/vscode.git) by extensions ['ignore', 'ignore_ament_install']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052701/exthost1/vscode.git) by extension 'ignore'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052701/exthost1/vscode.git) by extension 'ignore_ament_install'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052701/exthost1/vscode.git) by extensions ['colcon_pkg']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052701/exthost1/vscode.git) by extension 'colcon_pkg'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052701/exthost1/vscode.git) by extensions ['colcon_meta']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052701/exthost1/vscode.git) by extension 'colcon_meta'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052701/exthost1/vscode.git) by extensions ['ros']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052701/exthost1/vscode.git) by extension 'ros'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052701/exthost1/vscode.git) by extensions ['cmake', 'python']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052701/exthost1/vscode.git) by extension 'cmake'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052701/exthost1/vscode.git) by extension 'python'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052701/exthost1/vscode.git) by extensions ['python_setup_py']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052701/exthost1/vscode.git) by extension 'python_setup_py'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052701/exthost1/vscode.github) by extensions ['ignore', 'ignore_ament_install']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052701/exthost1/vscode.github) by extension 'ignore'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052701/exthost1/vscode.github) by extension 'ignore_ament_install'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052701/exthost1/vscode.github) by extensions ['colcon_pkg']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052701/exthost1/vscode.github) by extension 'colcon_pkg'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052701/exthost1/vscode.github) by extensions ['colcon_meta']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052701/exthost1/vscode.github) by extension 'colcon_meta'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052701/exthost1/vscode.github) by extensions ['ros']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052701/exthost1/vscode.github) by extension 'ros'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052701/exthost1/vscode.github) by extensions ['cmake', 'python']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052701/exthost1/vscode.github) by extension 'cmake'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052701/exthost1/vscode.github) by extension 'python'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052701/exthost1/vscode.github) by extensions ['python_setup_py']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052701/exthost1/vscode.github) by extension 'python_setup_py'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052959) by extensions ['ignore', 'ignore_ament_install']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052959) by extension 'ignore'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052959) by extension 'ignore_ament_install'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052959) by extensions ['colcon_pkg']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052959) by extension 'colcon_pkg'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052959) by extensions ['colcon_meta']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052959) by extension 'colcon_meta'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052959) by extensions ['ros']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052959) by extension 'ros'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052959) by extensions ['cmake', 'python']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052959) by extension 'cmake'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052959) by extension 'python'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052959) by extensions ['python_setup_py']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052959) by extension 'python_setup_py'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052959/exthost1) by extensions ['ignore', 'ignore_ament_install']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052959/exthost1) by extension 'ignore'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052959/exthost1) by extension 'ignore_ament_install'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052959/exthost1) by extensions ['colcon_pkg']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052959/exthost1) by extension 'colcon_pkg'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052959/exthost1) by extensions ['colcon_meta']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052959/exthost1) by extension 'colcon_meta'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052959/exthost1) by extensions ['ros']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052959/exthost1) by extension 'ros'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052959/exthost1) by extensions ['cmake', 'python']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052959/exthost1) by extension 'cmake'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052959/exthost1) by extension 'python'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052959/exthost1) by extensions ['python_setup_py']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052959/exthost1) by extension 'python_setup_py'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052959/exthost1/vscode.git) by extensions ['ignore', 'ignore_ament_install']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052959/exthost1/vscode.git) by extension 'ignore'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052959/exthost1/vscode.git) by extension 'ignore_ament_install'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052959/exthost1/vscode.git) by extensions ['colcon_pkg']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052959/exthost1/vscode.git) by extension 'colcon_pkg'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052959/exthost1/vscode.git) by extensions ['colcon_meta']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052959/exthost1/vscode.git) by extension 'colcon_meta'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052959/exthost1/vscode.git) by extensions ['ros']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052959/exthost1/vscode.git) by extension 'ros'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052959/exthost1/vscode.git) by extensions ['cmake', 'python']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052959/exthost1/vscode.git) by extension 'cmake'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052959/exthost1/vscode.git) by extension 'python'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052959/exthost1/vscode.git) by extensions ['python_setup_py']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052959/exthost1/vscode.git) by extension 'python_setup_py'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052959/exthost1/vscode.github) by extensions ['ignore', 'ignore_ament_install']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052959/exthost1/vscode.github) by extension 'ignore'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052959/exthost1/vscode.github) by extension 'ignore_ament_install'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052959/exthost1/vscode.github) by extensions ['colcon_pkg']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052959/exthost1/vscode.github) by extension 'colcon_pkg'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052959/exthost1/vscode.github) by extensions ['colcon_meta']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052959/exthost1/vscode.github) by extension 'colcon_meta'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052959/exthost1/vscode.github) by extensions ['ros']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052959/exthost1/vscode.github) by extension 'ros'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052959/exthost1/vscode.github) by extensions ['cmake', 'python']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052959/exthost1/vscode.github) by extension 'cmake'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052959/exthost1/vscode.github) by extension 'python'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052959/exthost1/vscode.github) by extensions ['python_setup_py']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T052959/exthost1/vscode.github) by extension 'python_setup_py'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T053904) by extensions ['ignore', 'ignore_ament_install']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T053904) by extension 'ignore'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T053904) by extension 'ignore_ament_install'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T053904) by extensions ['colcon_pkg']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T053904) by extension 'colcon_pkg'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T053904) by extensions ['colcon_meta']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T053904) by extension 'colcon_meta'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T053904) by extensions ['ros']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T053904) by extension 'ros'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T053904) by extensions ['cmake', 'python']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T053904) by extension 'cmake'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T053904) by extension 'python'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T053904) by extensions ['python_setup_py']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T053904) by extension 'python_setup_py'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T055122) by extensions ['ignore', 'ignore_ament_install']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T055122) by extension 'ignore'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T055122) by extension 'ignore_ament_install'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T055122) by extensions ['colcon_pkg']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T055122) by extension 'colcon_pkg'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T055122) by extensions ['colcon_meta']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T055122) by extension 'colcon_meta'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T055122) by extensions ['ros']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T055122) by extension 'ros'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T055122) by extensions ['cmake', 'python']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T055122) by extension 'cmake'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T055122) by extension 'python'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T055122) by extensions ['python_setup_py']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T055122) by extension 'python_setup_py'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T055122/exthost1) by extensions ['ignore', 'ignore_ament_install']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T055122/exthost1) by extension 'ignore'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T055122/exthost1) by extension 'ignore_ament_install'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T055122/exthost1) by extensions ['colcon_pkg']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T055122/exthost1) by extension 'colcon_pkg'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T055122/exthost1) by extensions ['colcon_meta']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T055122/exthost1) by extension 'colcon_meta'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T055122/exthost1) by extensions ['ros']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T055122/exthost1) by extension 'ros'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T055122/exthost1) by extensions ['cmake', 'python']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T055122/exthost1) by extension 'cmake'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T055122/exthost1) by extension 'python'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T055122/exthost1) by extensions ['python_setup_py']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T055122/exthost1) by extension 'python_setup_py'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T055122/exthost1/vscode.git) by extensions ['ignore', 'ignore_ament_install']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T055122/exthost1/vscode.git) by extension 'ignore'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T055122/exthost1/vscode.git) by extension 'ignore_ament_install'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T055122/exthost1/vscode.git) by extensions ['colcon_pkg']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T055122/exthost1/vscode.git) by extension 'colcon_pkg'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T055122/exthost1/vscode.git) by extensions ['colcon_meta']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T055122/exthost1/vscode.git) by extension 'colcon_meta'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T055122/exthost1/vscode.git) by extensions ['ros']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T055122/exthost1/vscode.git) by extension 'ros'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T055122/exthost1/vscode.git) by extensions ['cmake', 'python']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T055122/exthost1/vscode.git) by extension 'cmake'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T055122/exthost1/vscode.git) by extension 'python'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T055122/exthost1/vscode.git) by extensions ['python_setup_py']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T055122/exthost1/vscode.git) by extension 'python_setup_py'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T055122/exthost1/vscode.github) by extensions ['ignore', 'ignore_ament_install']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T055122/exthost1/vscode.github) by extension 'ignore'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T055122/exthost1/vscode.github) by extension 'ignore_ament_install'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T055122/exthost1/vscode.github) by extensions ['colcon_pkg']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T055122/exthost1/vscode.github) by extension 'colcon_pkg'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T055122/exthost1/vscode.github) by extensions ['colcon_meta']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T055122/exthost1/vscode.github) by extension 'colcon_meta'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T055122/exthost1/vscode.github) by extensions ['ros']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T055122/exthost1/vscode.github) by extension 'ros'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T055122/exthost1/vscode.github) by extensions ['cmake', 'python']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T055122/exthost1/vscode.github) by extension 'cmake'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T055122/exthost1/vscode.github) by extension 'python'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T055122/exthost1/vscode.github) by extensions ['python_setup_py']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260319T055122/exthost1/vscode.github) by extension 'python_setup_py'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260320T020221) by extensions ['ignore', 'ignore_ament_install']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260320T020221) by extension 'ignore'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260320T020221) by extension 'ignore_ament_install'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260320T020221) by extensions ['colcon_pkg']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260320T020221) by extension 'colcon_pkg'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260320T020221) by extensions ['colcon_meta']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260320T020221) by extension 'colcon_meta'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260320T020221) by extensions ['ros']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260320T020221) by extension 'ros'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260320T020221) by extensions ['cmake', 'python']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260320T020221) by extension 'cmake'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260320T020221) by extension 'python'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260320T020221) by extensions ['python_setup_py']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(code-server/data/logs/20260320T020221) by extension 'python_setup_py'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['ignore', 'ignore_ament_install']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ignore'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ignore_ament_install'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['colcon_pkg']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'colcon_pkg'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['colcon_meta']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'colcon_meta'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['ros']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ros'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['cmake', 'python']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'cmake'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'python'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['python_setup_py']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'python_setup_py'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(mars-surface) by extensions ['ignore', 'ignore_ament_install']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(mars-surface) by extension 'ignore'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(mars-surface) by extension 'ignore_ament_install'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(mars-surface) by extensions ['colcon_pkg']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(mars-surface) by extension 'colcon_pkg'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(mars-surface) by extensions ['colcon_meta']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(mars-surface) by extension 'colcon_meta'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(mars-surface) by extensions ['ros']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(mars-surface) by extension 'ros'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(mars-surface) by extensions ['cmake', 'python']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(mars-surface) by extension 'cmake'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(mars-surface) by extension 'python'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(mars-surface) by extensions ['python_setup_py']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(mars-surface) by extension 'python_setup_py'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(workspace) by extensions ['ignore', 'ignore_ament_install']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(workspace) by extension 'ignore'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(workspace) by extension 'ignore_ament_install'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(workspace) by extensions ['colcon_pkg']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(workspace) by extension 'colcon_pkg'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(workspace) by extensions ['colcon_meta']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(workspace) by extension 'colcon_meta'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(workspace) by extensions ['ros']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(workspace) by extension 'ros'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(workspace) by extensions ['cmake', 'python']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(workspace) by extension 'cmake'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(workspace) by extension 'python'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(workspace) by extensions ['python_setup_py']
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_identification:_identify(workspace) by extension 'python_setup_py'
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[-1774503031879340800.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[-1774503031879340800.000s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[-1774503031879340800.000s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[-1774503031879340800.000s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[-1774503031879340800.000s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[-1774503031879340800.000s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[-1774503031879340800.000s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[-1774503031879340800.000s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[-1774503031879340800.000s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[-1774503031879340800.000s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[-1774503031879340800.000s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[-1774503031879340800.000s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[-1774503031879340800.000s] INFO:colcon.colcon_core.shell:Creating prefix script '/media/systems/Data1/Uni/(AR) Algorithmic Robotics/install/local_setup.ps1'
+[-1774503031879340800.000s] INFO:colcon.colcon_core.shell:Creating prefix util module '/media/systems/Data1/Uni/(AR) Algorithmic Robotics/install/_local_setup_util_ps1.py'
+[-1774503031879340800.000s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/media/systems/Data1/Uni/(AR) Algorithmic Robotics/install/setup.ps1'
+[-1774503031879340800.000s] INFO:colcon.colcon_core.shell:Creating prefix script '/media/systems/Data1/Uni/(AR) Algorithmic Robotics/install/local_setup.sh'
+[-1774503031879340800.000s] INFO:colcon.colcon_core.shell:Creating prefix util module '/media/systems/Data1/Uni/(AR) Algorithmic Robotics/install/_local_setup_util_sh.py'
+[-1774503031879340800.000s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/media/systems/Data1/Uni/(AR) Algorithmic Robotics/install/setup.sh'
+[-1774503031879340800.000s] INFO:colcon.colcon_core.shell:Creating prefix script '/media/systems/Data1/Uni/(AR) Algorithmic Robotics/install/local_setup.bash'
+[-1774503031879340800.000s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/media/systems/Data1/Uni/(AR) Algorithmic Robotics/install/setup.bash'
+[-1774503031879340800.000s] INFO:colcon.colcon_core.shell:Creating prefix script '/media/systems/Data1/Uni/(AR) Algorithmic Robotics/install/local_setup.zsh'
+[-1774503031879340800.000s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/media/systems/Data1/Uni/(AR) Algorithmic Robotics/install/setup.zsh'
