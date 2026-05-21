@@ -21,7 +21,7 @@ BASE_CMD="source /opt/ros/jazzy/setup.bash && cd succulence_ws && source install
 konsole -e docker exec -it $CONTAINER_NAME /bin/bash -c "$BASE_CMD && rviz2 -d $RVIZ_CONFIG" &
 
 # 2. Start Mission Launch
-konsole -e docker exec -it $CONTAINER_NAME /bin/bash -c "$BASE_CMD && ros2 launch succulence_rover_ros mission.launch.py" &
+konsole -e docker exec -it $CONTAINER_NAME /bin/bash -c "$BASE_CMD && ros2 launch succulence_rover_ros dead_reckoning.launch.py" &
 
 #konsole -e btop &
 

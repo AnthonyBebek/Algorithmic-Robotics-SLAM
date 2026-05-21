@@ -35,7 +35,6 @@
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
-      ![](./image.png)
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -56,6 +55,8 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+
+![Robot](./readmeFiles/robot.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
